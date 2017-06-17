@@ -1,0 +1,51 @@
+header
+  min-height: 30px
+
+  @include tablet
+    display: none
+  @include smartphone
+    display: none
+
+  .container
+    vertical-align: middle
+    display: block
+  .row
+    margin: 0 !important
+
+  .header-emails,
+  .header-phone,
+  .header-social
+    display: flex
+    flex-direction: row
+    height: 100%
+    align-items: center
+    justify-content: center
+    ul
+      list-style: none
+  
+  .social-icon
+    text-align: right
+    position: relative
+
+    li 
+      display: inline-block
+      list-style: none
+      
+      a
+        border: none
+        color: #28a7e9
+        width: 30px
+        height: 30px
+        line-height: 30px
+        text-align: center
+
+  .material-icons
+    color: #28a7e9
+
+  span
+    padding: 0 10px 0 8px
+
+  p
+    display: flex
+    margin: 0
+    align-items: center

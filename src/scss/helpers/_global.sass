@@ -1,0 +1,27 @@
+body
+  font-family: 'Roboto', sans-serif
+  overflow-x: hidden
+h2
+  text-align: center
+  font-size: 40px
+  padding: 20px 0 40px 0
+  
+  span
+    color: #28a7e9
+    font-weight: bold
+section
+  padding: 20px 0
+address
+  font-style: normal
+
+.parallax-container
+  height: 600px
+
+  @include smartphone
+    height: 300px
+    
+  @include tablet
+    height: 400px
+
+  @include desktop
+    height: 500px

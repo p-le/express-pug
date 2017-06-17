@@ -1,0 +1,36 @@
+#home
+  background-size: 100% auto
+  padding: 160px 0 100px
+  min-height: 300px
+
+  @include tablet
+    min-height: 500px
+  @include desktop
+    min-height: 700px
+
+  h1
+    font-weight: 300
+    font-size: 40px
+    padding-bottom: 10px
+
+    @include smartphone
+      font-size: 15px
+
+    span
+      color: #28a7e9
+      font-weight: bold
+  .btn
+    background: transparent
+    border-radius: 2px
+    color: #fff
+    font-size: 16px
+    font-weight: bold
+    margin-top: 20px
+    width: 180px
+    height: 60px
+    padding-top: 18px
+    transition: all 0.4s ease-in-out
+
+    &:hover
+      background: #28a7e9 
+      border-color: transparent
